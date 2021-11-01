@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.620">
+  <properties />
+  
+  
+            <testcase name="TC004_ClickTotalCalibratedDevices" time="2.196" classname="im.DeviceDashboardTest" />
+                <testcase name="TC001_ScrollPage" time="2.054" classname="im.DeviceDashboardTest" />
+                <testcase name="TC007_PendingDeviceRequest" time="4.311" classname="im.DeviceDashboardTest" />
+                <testcase name="TC006_ClickUpcomingMonthCalibrationDue" time="2.196" classname="im.DeviceDashboardTest" />
+                <testcase name="TC005_ClickCurrentMonthCalibrationDue" time="2.170" classname="im.DeviceDashboardTest" />
+                <testcase name="TC002_ClickTotalDevices" time="2.188" classname="im.DeviceDashboardTest" />
+                <testcase name="TC008_FeedbackDeviceDashboard" time="3.287" classname="im.DeviceDashboardTest" />
+                <testcase name="TC003_ClickAvailableDevices" time="2.218" classname="im.DeviceDashboardTest" />
+      
+</testsuite>

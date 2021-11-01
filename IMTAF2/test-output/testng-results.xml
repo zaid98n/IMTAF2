@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-26T19:02:54 IST" name="Suite" finished-at="2021-10-26T19:06:07 IST" duration-ms="192764">
+    <groups>
+    </groups>
+    <test started-at="2021-10-26T19:02:54 IST" name="Test" finished-at="2021-10-26T19:06:07 IST" duration-ms="192764">
+      <class name="im.AllDeviceTest">
+        <test-method signature="TC001_ClickAllDevice()[pri:0, instance:im.AllDeviceTest@bccb269]" started-at="2021-10-26T19:03:12 IST" name="TC001_ClickAllDevice" finished-at="2021-10-26T19:03:12 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_ClickAllDevice -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:im.AllDeviceTest@bccb269]" started-at="2021-10-26T19:03:12 IST" name="takeScreenShotOnFailure" finished-at="2021-10-26T19:03:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_ClickAllDevice status=SUCCESS method=AllDeviceTest.TC001_ClickAllDevice()[pri:0, instance:im.AllDeviceTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="TC002_CreateNewDevice()[pri:0, instance:im.AllDeviceTest@bccb269]" started-at="2021-10-26T19:03:12 IST" name="TC002_CreateNewDevice" finished-at="2021-10-26T19:06:07 IST" duration-ms="175106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_CreateNewDevice -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:im.AllDeviceTest@bccb269]" started-at="2021-10-26T19:06:07 IST" name="takeScreenShotOnFailure" finished-at="2021-10-26T19:06:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002_CreateNewDevice status=SUCCESS method=AllDeviceTest.TC002_CreateNewDevice()[pri:0, instance:im.AllDeviceTest@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- im.AllDeviceTest -->
+      <class name="im.HomepgTest">
+        <test-method signature="TC001_LaunchURL()[pri:0, instance:im.HomepgTest@2925bf5b]" started-at="2021-10-26T19:02:54 IST" name="TC001_LaunchURL" finished-at="2021-10-26T19:02:58 IST" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_LaunchURL -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:im.HomepgTest@2925bf5b]" started-at="2021-10-26T19:02:58 IST" name="takeScreenShotOnFailure" finished-at="2021-10-26T19:02:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_LaunchURL status=SUCCESS method=HomepgTest.TC001_LaunchURL()[pri:0, instance:im.HomepgTest@2925bf5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="TC002_Login()[pri:0, instance:im.HomepgTest@2925bf5b]" started-at="2021-10-26T19:02:58 IST" name="TC002_Login" finished-at="2021-10-26T19:03:12 IST" duration-ms="14411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Login -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:im.HomepgTest@2925bf5b]" started-at="2021-10-26T19:03:12 IST" name="takeScreenShotOnFailure" finished-at="2021-10-26T19:03:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002_Login status=SUCCESS method=HomepgTest.TC002_Login()[pri:0, instance:im.HomepgTest@2925bf5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- im.HomepgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

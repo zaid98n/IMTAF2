@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.519">
+  <properties />
+  
+  
+            <testcase name="TC002_Login" time="14.411" classname="im.HomepgTest" />
+                <testcase name="TC001_LaunchURL" time="3.108" classname="im.HomepgTest" />
+      
+</testsuite>
