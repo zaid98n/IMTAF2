@@ -35,30 +35,5 @@ public class AllDeviceTest {
 	public void TC002_CreateNewDevice() throws IOException, InterruptedException, AWTException {
 		device.CreateNewDevice();
 	}
-	
-//	@Test
-//	public void TC003_CheckSearch() throws IOException, InterruptedException, AWTException {
-//		device.Search();
-//	}
-//	
-//	@Test
-//	public void TC004_CheckFilters() throws IOException, InterruptedException, AWTException {
-//		device.Filters();
-//	}
-//	
-//	@Test
-//	public void TC005_CheckDownloadCalDetails() throws IOException, InterruptedException, AWTException {
-//		device.DownloadCalDetails();
-//	}
-//	
-//	@Test
-//	public void TC006_CheckDeviceDetails() throws IOException, InterruptedException, AWTException {
-//		device.DeviceDetails();
-//	}
-//	
-//	@Test
-//	public void TC007_Feedback() throws IOException, InterruptedException, AWTException {
-//		device.feedback();
-//	}
 
 }

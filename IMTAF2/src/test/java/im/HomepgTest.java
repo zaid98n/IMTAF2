@@ -8,6 +8,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import commonUtils.BrowserFactory;
+import commonUtils.DataFile;
 import commonUtils.Screenshot;
 import pages.Login;
 
@@ -32,8 +33,10 @@ public class HomepgTest {
 	
 	@Test
 	public void TC002_Login() throws Exception {
-		login.setUsername("dazaid01");
-		login.setPassword("JuZ!UNDZze");
+		String UsrName = DataFile.CellData(1, 0);
+		String Psword = DataFile.CellData(1, 1);
+		login.setUsername(UsrName);
+		login.setPassword(Psword);
 		login.clickLogin();
 		Thread.sleep(4000);
 		BrowserFactory.LaunchBrowser().manage().deleteAllCookies();
