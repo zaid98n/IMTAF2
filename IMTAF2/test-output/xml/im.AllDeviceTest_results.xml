@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="175.194">
+           time="185.139">
   <properties />
   
   
-            <testcase name="TC002_CreateNewDevice" time="175.106" classname="im.AllDeviceTest" />
-                <testcase name="TC001_ClickAllDevice" time="0.088" classname="im.AllDeviceTest" />
+            <testcase name="TC001_ClickAllDevice" time="0.091" classname="im.AllDeviceTest" />
+                <testcase name="TC002_CreateNewDevice" time="185.048" classname="im.AllDeviceTest" />
       
 </testsuite>
