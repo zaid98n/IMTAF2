@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.791">
+           time="19.620">
   <properties />
   
   
-            <testcase name="TC001_LaunchURL" time="3.329" classname="im.HomepgTest" />
-                <testcase name="TC002_Login" time="6.462" classname="im.HomepgTest" />
+            <testcase name="TC001_LaunchURL" time="4.004" classname="im.HomepgTest" />
+                <testcase name="TC002_Login" time="15.616" classname="im.HomepgTest" />
       
 </testsuite>

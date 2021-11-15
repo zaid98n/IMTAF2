@@ -33,13 +33,13 @@ public class AllDevice {
 		Thread.sleep(1000);
 		
 		BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/app-root/app-layout/div/section/app-edit-device/div/div[3]/form[1]/div/div[2]/div[1]/div[1]/input").sendKeys(dname[i]);
-		Thread.sleep(500);
+		Thread.sleep(300);
 		BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/app-root/app-layout/div/section/app-edit-device/div/div[3]/form[1]/div/div[2]/div[1]/div[2]/input").sendKeys(model[i]);
-		Thread.sleep(500);
+		Thread.sleep(300);
 		BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/app-root/app-layout/div/section/app-edit-device/div/div[3]/form[1]/div/div[2]/div[2]/div[1]/input").sendKeys(serial[i]);
-		Thread.sleep(500);
+		Thread.sleep(300);
 		BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/app-root/app-layout/div/section/app-edit-device/div/div[3]/form[1]/div/div[2]/div[2]/div[2]/input").sendKeys(make[i]);
-		Thread.sleep(500);
+		Thread.sleep(300);
 		
 		BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/app-root/app-layout/div/section/app-edit-device/div/div[3]/form[1]/div/div[2]/div[3]/div[1]/p-dropdown/div").click();
 		Thread.sleep(500);
